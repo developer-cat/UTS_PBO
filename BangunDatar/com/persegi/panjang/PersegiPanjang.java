@@ -6,14 +6,14 @@ public class PersegiPanjang implements BangunDatar{
     double lebar;
     double luas_persegi_panjang;
 
-    public PersegiPanjang(double panjang,double lebar){
+    public PersegiPanjang(double panjang, double lebar){
         this.panjang = panjang;
         this.lebar = lebar;
     }
 
     @Override
     public void luas() {
-        luas_persegi_panjang = this.panjang*this.lebar;
+        luas_persegi_panjang = this.panjang * this.lebar;
     }
 
     @Override
