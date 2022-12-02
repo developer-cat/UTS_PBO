@@ -4,8 +4,8 @@ import BangunDatar.com.setengah.lingkaran.SetengahLingkaran;
 public class Main{
     public static void main(String[] args){
         double luas_arsir;
-        PersegiPanjang persegiPanjang1 = new PersegiPanjang(12,7);
-        SetengahLingkaran setengahLingkaran1=new SetengahLingkaran(12);
+        PersegiPanjang persegiPanjang1 = new PersegiPanjang(12, 7);
+        SetengahLingkaran setengahLingkaran1 = new SetengahLingkaran(12);
 
         persegiPanjang1.luas();
         setengahLingkaran1.luas();
